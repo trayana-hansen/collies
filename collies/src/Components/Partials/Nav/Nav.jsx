@@ -8,13 +8,13 @@ const NavArr = [
 
 const Nav = () => {
   return (
-    <div className="navbar">
+    
     <ul>
       {NavArr.map((value, key) => {
         return <li key={key}>{value}</li>;
       })}
     </ul>
-    </div>
+
   );
 };
 
