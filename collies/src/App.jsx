@@ -8,10 +8,12 @@ function App() {
   return (
     <div className="App">
       <Header pageTitle="Collies" />
-      <nav className="navbar">
-        <Nav />
-      </nav>
-      <Main />
+      <div className="sideNav">
+        <nav className="navbar">
+          <Nav />
+        </nav>
+        <Main />
+      </div>
       <Footer />
     </div>
   );
